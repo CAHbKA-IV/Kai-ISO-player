@@ -1,0 +1,12 @@
+[{"$i":"help_softkey","$v":"Help"},
+{"$i":"mount_softkey","$v":"MOUNT"},
+{"$i":"rescan_softkey","$v":"Rescan"},
+{"$i":"iso_player_title","$v":"ISO Player"},
+{"$i":"help_title","$v":"Help"},
+{"$i":"help_text_1","$v":"To mount CD images, copy them in the .iso format to SD card. Then press «Rescan», select an image and press «MOUNT»."},
+{"$i":"help_text_2","$v":"To eject disk from virtual drive, press «Call» button."}
+{"$i":"help_text_3","$v":"Please disable USB Storage mode or connect locked phone to PC for correct emulation."}
+{"$i":"help_text_4","$v":"You can add up to 12 images into «speed dial». To add image press and hold button on phone keyboard. After some seconds message «speed dial saved» will appear. To mount image from speed dial short press corresponding button on phone keyboard."}
+{"$i":"help_close_button","$v":"CLOSE"},
+
+{"$i":"sd-card-full","$v":"SD Card Full. Delete files in SD card to free up space."}]

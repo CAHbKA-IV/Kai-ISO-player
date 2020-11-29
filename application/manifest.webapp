@@ -1,0 +1,55 @@
+{
+  "version": "0.0.2",
+  "name": "ISO Player 2",
+  "description": "Mount ISO files as virtual CD drive on KaiOS",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/img/icons/icon_56.png",
+    "112": "/img/icons/icon_112.png"
+  },
+  "developer": {
+    "name": "c-iv",
+    "url": "https://c-iv.ru"
+  },
+  "type": "certified",
+  "origin": "app://iso-player.c-iv.ru",
+  "theme_color": "#003153",
+  "permissions": {
+    "engmode-extension": {
+      "description": "Handle KaiOS 2.5.1+ devices"
+    },
+    "kaiosextension": {
+      "description": "Handle KaiOS 2.5 devices"
+    },
+    "jrdextension": {
+      "description": "Handle KaiOS 1.0 devices by TCL"
+    },
+    "device-storage:sdcard" : {
+      "description": "Required for accessing app manifest files",
+      "access": "readonly"
+    },
+    "device-storage:sdcard1" : {
+      "description": "Required for accessing app manifest files",
+      "access": "readonly"
+    }
+  },
+  "locales": {},
+  "default_locale": "ru-RU",
+  "locales" : {
+      "en-US" : {
+          "name" : "ISO Player",
+          "description":"Mount ISO files as virtual CD drive on KaiOS"
+      },
+      "ru-RU" : {
+          "name" : "ISO-плеер",
+          "description":"Используйте телефон как виртуальный CD-накопитель"
+      }
+  },
+  "activities": {
+    "c-iv.isoplayer.help": {
+      "href": "./help.html",
+      "disposition": "inline",
+      "returnValue": true
+    }
+  }
+}
